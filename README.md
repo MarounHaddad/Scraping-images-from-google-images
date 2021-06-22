@@ -11,5 +11,6 @@ Using Internet explorer:
 5- Save the har file using "Export as HAR" button in the developer tools panel.  
 6- Run the "download_images.py" script after adjusting the source and destination locations.  
 
-
-
+<p align="center">
+  <img width="460" height="300" src="https://github.com/MarounHaddad/Scraping-images-from-google-images/images/internet explorer example.PNG">
+</p>
