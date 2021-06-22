@@ -1,20 +1,31 @@
+"""
+This file converts the images to jpg
+"""
+
 import os
 
 from PIL import Image
 
 prefix = ""
-source_images = "D:\\UNIVERSITY\\Masters\\Assistant\\TPs\\Multi-especes marines\\donneesbefore\\entrainement\\requinbaleine"
-destination_images = "D:\\UNIVERSITY\\Masters\\Assistant\\TPs\\Multi-especes marines\\donneesbefore\\entrainement\\requinbaleine2"
+source_images = "D:\\source_images_location"
+destination_images = "D:\\destination_images_location"
 
+# create directory if does not exist
 if not os.path.exists(destination_images):
     os.makedirs(destination_images)
 
+# Images size
 size = 256, 256
 
+# source images location
 l = os.listdir(source_images)
+
+# Shuffle images before converting them
 # random.shuffle(l)
+
 sequence = 1
 for image in l:
+    # print image name
     print(image)
     if image == "Shuffled": continue
     im = Image.open(source_images + "\\" + image)
