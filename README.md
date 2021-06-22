@@ -12,5 +12,5 @@ Using Internet explorer:
 6- Run the "download_images.py" script after adjusting the source and destination locations.  
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/MarounHaddad/Scraping-images-from-google-images/images/internet explorer example.PNG">
+  <img width="460" height="300" src="https://github.com/MarounHaddad/Scraping-images-from-google-images/blob/main/images/internet%20explorer%20example.PNG">
 </p>
