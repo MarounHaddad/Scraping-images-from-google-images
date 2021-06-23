@@ -2,7 +2,7 @@
 A list of scripts used for scraping images from google images.
 To be used only for research or learning purposes.
 
-# Method
+## Method
 Using Internet explorer:   
 1- Go to google images.  
 2- Open developer tools (Settings -> F12 Developer tools).  
