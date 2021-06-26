@@ -1,4 +1,4 @@
-# Scraping images from google images
+# Scraping Images from "Google Images"
 A list of scripts used for scraping images from google images.
 To be used only for research or learning purposes.
 
